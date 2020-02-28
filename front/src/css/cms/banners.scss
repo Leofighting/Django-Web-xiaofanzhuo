@@ -1,0 +1,34 @@
+.row{
+  .col-md-12{
+    .btn-group{
+      float: left;
+    }
+    .tips{
+      float: left;
+      li{
+        list-style: none;
+      }
+    }
+  }
+}
+
+.banner-item{
+  width: 800px;
+  .box-body{
+    .thumbnail-group{
+      float: left;
+      width: 230px;
+      height: 85px;
+      .thumbnail{
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .more-group{
+      float: left;
+      margin-left: 20px;
+      width: 500px;
+    }
+
+  }
+}

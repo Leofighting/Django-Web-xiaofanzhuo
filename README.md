@@ -946,12 +946,13 @@ class Command(BaseCommand):
 1. 确认项目没有bug。
 2. 用`pip freeze > requirements.txt`将当前环境的包导出到`requirements.txt`文件中，方便在部署的时候安装。
 3. 使用 `Git` 进行项目版本管理
-    * 使用 xxx.git
-    * git remote add origin xxx.git
-    * git add .
-    * git commit -m 'first commit'
-    * git pull origin master --allow-unrelated-histories
-    * git push origin master
+* `git init`：将目录初始化，成为一个 `git` 仓库
+* `git remote add origin 远程仓库地址`：将项目连接到远程仓库
+* `git add .`：将目录下的文件添加到暂存区
+* `git commit -m 'first commit'`：提交到本地库
+* `git push -u origin master`：把项目文件推送到远程仓库，`-u` 表示远程仓库是空的
+
+[git操作详细说明](https://blog.csdn.net/Lucky_LXG/article/details/77849212?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task)
 
 
 ### 在服务器上的准备工作：
